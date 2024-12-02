@@ -96,6 +96,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section {
+    margin-top: 130px;
+}
 /*About  section style*/
 .about{
     padding: 130px;
@@ -112,6 +115,33 @@ main{
     text-align: center;
     text-transform: capitalize;
 }
+/*Skill section style*/
 #what-desription{
     padding: 30px 130px;
 }
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06); 
+}
+.skill-title{
+
+}
+.skill-description{
+    color: #757575;
+}
+
+/*resume style*/
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
