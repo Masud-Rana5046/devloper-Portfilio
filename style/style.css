@@ -173,7 +173,27 @@ main section {
 /*footer style*/
 footer{
 display: flex;
-padding: 100px 80px;
+gap: 100px;
+padding: 100px 200px;
 background-color: #fff8f3;
 margin-top: 100px;
 }
+.social-links a{
+    margin-left: 20px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contat input[type='text'], .contat input[type ='email'], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+
